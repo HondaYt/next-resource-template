@@ -1,0 +1,58 @@
+.resourcesGrid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.resourceCard {
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px #00000020;
+    background: #fff;
+    color: #3e3e3e;
+}
+
+.resourceCard__date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #686868;
+    line-height: 1.6;
+}
+
+.resourceCard__title {
+    font-size: 18px;
+}
+
+.resourceCard__description {
+    font-size: 14px;
+}
+
+.resourceGroup {
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    width: 256px;
+    min-width: 256px;
+    padding: 16px 0px;
+    height: fit-content;
+    background: #f3f3f3;
+
+}
+
+.resourceGroup__title {
+    color: #686868;
+    font-size: 16px;
+    margin: 0 16px;
+}
+
+.resourceGroup__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+    padding: 16px 16px 16px;
+}
+
+.resourcesGrid {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+}
